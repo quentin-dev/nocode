@@ -45,8 +45,8 @@ if [ "$USERGITINPUT" != "y" ]; then
 fi
 
 # Perform all git actions except push, left up to the user
-$(git add "$1" &>/dev/null)
-$(git commit -m "$1: update" &>/dev/null)
+$(git add "$ARG" &>/dev/null)
+$(git commit -m "$ARG: update" &>/dev/null)
 
 # Remove file because we're #NoCodeCompliant
 $(rm "$ARG")
