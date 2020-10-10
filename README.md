@@ -26,3 +26,8 @@ Nocode is currently limited to C code, with hopefully more to come
 3) Use `CTRL+D` to tell nocode you're done writing 
 4) Follow the on screen instructions
 5) Once nocode has exited, you can `git push` your files
+
+## Possible improvements
+
+- If a user calls `Nocode` on an already-committed file, check it out
+  to edit it, instead of writing from scratch
